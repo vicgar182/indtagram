@@ -1,0 +1,129 @@
+body {
+	margin: 0;
+}
+
+.logo {
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+}
+
+.name {
+	display: inline-block;
+	margin-left: 10px;
+}
+
+h1 {
+	font-size: 40px;
+    margin-top: 15px;
+}
+
+h2 {
+	font-size: 20px;
+	font-family: 'Sedgwick Ave Display', cursive;
+}
+
+p {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.likes {
+	margin: 0 0 10px 10px;
+	font-weight: bold;
+}
+
+.coment {
+	text-align: justify;
+	margin: 15px;
+}
+
+header {
+	width: 100%;
+	text-align: center;
+	background: #5246ad;
+	color: black;
+	height: 80px;
+	font-family: 'Faster One', cursive;
+	display: block;
+	position: fixed;
+	top: 0;
+}
+
+.side-left {
+	width: 150px;
+	height: 1000px;
+	position: fixed;
+	top: 80px;
+}
+
+.side-right {
+	width: 150px;
+	height: 1000px;
+	position: fixed;
+	top: 80px;
+	right: 0px;
+}
+
+.container {
+	margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.image-profile {
+	float: left;
+	width: 40px;
+	margin-top: 12px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 30px;
+}
+
+.post {
+	width: 700px;
+	margin: 30px auto;
+	background: #fff;
+	border: solid 1px #ccc;
+}
+
+.post-name {
+	float: left;
+}
+
+.post-date {
+	float: right;
+	margin-top: 8px;
+}
+
+img {
+	width: 100%;
+}
+
+.actions-container {
+	border-bottom: solid 1px #ccc;
+}
+
+.actions-container-img {
+	border-radius: 30px;
+}
+
+.actions {
+	width: 40px;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	cursor: pointer;
+	border-radius: 30px;
+}
+
+.actions-right {
+	width: 40px;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	cursor: pointer;
+	float: right;
+}
+
+.actions:hover, .actions-right:hover {
+	opacity: 0.5;
+}
